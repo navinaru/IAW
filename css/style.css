@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+  }
+  .anslogo {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton {
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a4747;
+  }
+
+  .cabtop {
+    background: #0a4747;
+    margin-top: -15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 40px;
+  }
+
+  .comptarea {
+    background-color: #ffffff;
+    padding: 5%;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .nomtarea {
+    font-weight: 900;
+    font-style: inherit;
+    color: #f54a1a;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .enunciado {
+    background-color: #bebebe;
+    border-radius: 10px;
+    padding: 1%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+
+  }
+
+  .respuesta {
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background: rgb(32, 15, 5);
+    font-weight: 300;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+
+  footer p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
