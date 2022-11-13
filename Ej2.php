@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
     <link href="./css/normalize.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
-    <title>Antonio Naveiro Exercicio01</title>
+    <title>Antonio Naveiro Exercicio02</title>
 </head>
 <body>
 
@@ -16,34 +16,35 @@
     </div>
 
 <div class="comptarea">
-    <div class="nomtarea"><h1>Exercicio 1</h1></div>
+    <div class="nomtarea"><h1>Exercicio 2</h1></div>
     <div class="enunciado">
-        <p>Dada a hora, minuto e segundo, atopar a hora do seguinte segundo.</p>
+        <p>Dada	un	día	e	o	número	de	mes,	devolver	a	estación	do	ano	de	acordo	á	seguinte	
+        táboa:</p>
     </div>
     <div class="respuesta">
 
     <?php
-            $horas = 23 ;
-            $minutos = 60 ;
-            $segundos = 56 ;
-            
-            while ($segundos >= 60) {
-                $segundos = $segundos - 60 ;
-                $minutos++ ;
-            }
+           $mes = 3 ;
+           $dia = 21 ;
 
-            while ($minutos >= 60) {
-                $minutos = $minutos - 60 ;
-                $horas++ ;
-            }
+           echo "la estacion del mes $mes dia $dia es: \n";
+           
+           if ($mes == 12 && $dia >= 21  || $mes == 1 || $mes == 2 || $mes == 3 && $dia <= 20) {
+            echo "INVIERNO";
+           }
 
-            while ($horas > 23) {
-                $horas = $horas - 24 ;
-            }
+           if ($mes == 3 && $dia >= 21  || $mes == 4 || $mes == 5 || $mes == 6 && $dia <= 21) {
+            echo "PRIMAVERA";
+           }
 
-            echo "la hora es $horas : $minutos : $segundos \n" ;
-            echo "la siguiente hora es \n" . ++$horas ;
-       
+           if ($mes == 6 && $dia >= 22  || $mes == 7 || $mes == 8 || $mes == 9 && $dia <= 22) {
+            echo "VERANO";
+           }
+
+           if ($mes == 9 && $dia >= 23  || $mes == 10 || $mes == 11 || $mes == 12 && $dia <= 23) {
+            echo "OTONO";
+           }
+           
         ?>
 
     </div>
