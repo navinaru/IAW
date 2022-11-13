@@ -4,15 +4,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-    <link href="./css/normalize.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <title>Antonio Naveiro Exercicio01</title>
 </head>
 <body>
 
     <div class="cabtop">
-        <img src="./recursos/logo.png" alt="logo" id="anslogo">
-        <p><a href="/phpmyadmin/" class="boton">indice</a></p>
+        <img src="../recursos/logo.png" alt="logo" id="anslogo">
+        <p><a href="../index.html" class="boton">indice</a></p>
     </div>
 
 <div class="comptarea">

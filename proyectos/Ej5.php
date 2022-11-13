@@ -4,15 +4,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-    <link href="./css/normalize.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <title>Antonio Naveiro Exercicio05</title>
 </head>
 <body>
 
     <div class="cabtop">
-        <img src="./recursos/logo.png" alt="logo" id="anslogo">
-        <p><a href="/phpmyadmin/" class="boton">indice</a></p>
+        <img src="../recursos/logo.png" alt="logo" id="anslogo">
+        <p><a href="../index.html" class="boton">indice</a></p>
     </div>
 
 <div class="comptarea">
@@ -27,7 +27,7 @@ xaneiro	de	2016	indicar	que	a	data	é	incorrecta	porque	se	introduciu	mal	o	día
     <?php
           $dia = 29 ;
           $mes = 2 ;
-          $ano = 2024 ;
+          $ano = 2016 ;
           $calcdias = 0 ;
 
       for ($i=1;$i<=$mes;$i++){
@@ -56,16 +56,16 @@ xaneiro	de	2016	indicar	que	a	data	é	incorrecta	porque	se	introduciu	mal	o	día
             echo "$ano no es bisiesto, \n";
           }
    
-          if ($dia > $diasmax) {
+          if ($dia > $diasmax || $dia == 0) {
             echo "O dia non e correcto,";
           }
-          if ($dia <= $diasmax) {
+          elseif ($dia <= $diasmax) {
             echo "o dia numero $dia e correcto, \n";
           }
-          if ($mes > 12) {
+          if ($mes > 12 || $mes == 0) {
             echo "O mes e incorrecto";
           }
-          if ($mes < 12) {
+          elseif ($mes < 12) {
             echo "o mes numero $mes e correcto, \n";
           }
   
