@@ -28,7 +28,6 @@ xaneiro	de	2016	indicar	que	a	data	é	incorrecta	porque	se	introduciu	mal	o	día
           $dia = 29 ;
           $mes = 2 ;
           $ano = 2016 ;
-          $calcdias = 0 ;
 
       for ($i=1;$i<=$mes;$i++){
 
