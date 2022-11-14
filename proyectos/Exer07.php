@@ -25,14 +25,14 @@ número	é	capicúa.</p>
     <div class="respuesta">
 
     <?php  
-        $numero = 123 ;
+        $numero = 4444 ;
         $numcalculo = $numero;  
         $invnum = 0 ;  
-        while ($numcalculo > 1)  {  
+        while ($numcalculo != 0)  {  
             $resto = $numcalculo % 10;  
             $invnum = ($invnum * 10) + $resto;
-            //detener while  
-            $numcalculo = ($numcalculo / 10);   
+            //detener while
+            $numcalculo = (int)($numcalculo / 10);   
         }
         
         

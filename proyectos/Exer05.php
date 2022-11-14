@@ -25,9 +25,10 @@ xaneiro	de	2016	indicar	que	a	data	é	incorrecta	porque	se	introduciu	mal	o	día
     <div class="respuesta">
 
     <?php
-          $dia = 29 ;
-          $mes = 2 ;
+          $dia = 0 ;
+          $mes = 1 ;
           $ano = 2016 ;
+          $diasmax ;
 
       for ($i=1;$i<=$mes;$i++){
 
